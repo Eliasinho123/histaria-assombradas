@@ -1,15 +1,30 @@
+@font-face {
+    font-family: BlackBoard;
+    src: url(../assets/BlackBoard.ttf);
+}
+
 body {
     background-color: #292020;
     color: rgb(255, 255, 255);
     font-family: "Roboto", serif;
-    font-size: 18px;
+    font-size: 19px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
-    margin: 10px;
-    z-index: 1000;
+    height: 100vh;
+    margin: 0;
     flex-direction: column;
+}
+
+.title{
+    font-size: 38px;
+    font-family: "BlackBoard";
+    font-weight: 900;
+    position: absolute;
+    top: 20px;
+    letter-spacing: 5px;
+    color: #ff0000;
+    text-shadow: 0 0 15px #000;
 }
 
 button {
@@ -17,8 +32,16 @@ button {
     color: rgb(0, 0, 0);
     font-family: "Roboto", serif;
     font-size: 17px;
-    padding: 10px 15px;
-    border-radius: 6px;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+button:hover{
+    background-color: #959200;
 }
 
 .passo {
@@ -39,5 +62,31 @@ main {
 }
 
 img{
-    border-radius: 6px;
+    inset: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: bottom center;
 }
+
+body::after{
+    margin: 6px;
+    position: absolute;
+    inset: 0;
+    content: '';
+    background-color: transparent;
+    border: 5px solid rgb(83, 19, 10);
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.text{
+    z-index: 2;
+    background-color: #3b3a3a7a;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    padding: 30px 20px;
+}
+

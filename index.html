@@ -6,146 +6,192 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=:Robototal,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>The killer driver</title>
 </head>
 <body>
+    <h1 class="title">
+        -The killer driver-
+    </h1>
     <main>
         <div class="passo ativo" id="passo-0">
             <img src="assets/cenario-passo0.jpg" alt="">
-            <p>Em um dia chuvoso, as 23:00 da noite, você estava com muita fome e então decide pedir alguma comida, seu amigo, André estava junto com você porque ele iria dormir em sua casa. Para onde vocês deveriam ligar?</p>
-            <button class="btn-proximo" data-proximo="1">Ligar para a pizzaria</button>
-            <button class="btn-proximo" data-proximo="2">Ligar para a hamburgueria</button>
+            <div class="text">
+                <p>Em um dia chuvoso, as 23:00 da noite, você estava com muita fome e então decide pedir alguma comida, seu amigo, André estava junto com você porque ele iria dormir em sua casa. Para onde vocês deveriam ligar?</p>
+                <button class="btn-proximo" data-proximo="1">Ligar para a pizzaria</button>
+                <button class="btn-proximo" data-proximo="2">Ligar para a hamburgueria</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-1">
             <img src="assets/cenario-passo1.jpg" alt="">
-            <p>Vocês decidiram ligar para a pizzaria... Um atendente com a voz bem grossa atende sua chamada: "Boa noite, qual seria o pedido de vocês?</p>
-            <button class="btn-proximo" data-proximo="3">Espera, como você sabe que estou com mais alguém?</button>
-            <button class="btn-proximo" data-proximo="4">Hmm... acho que vou querer duas pizzas, calabresa e portuguesa.</button>
+            <div class="text">
+                <p>Vocês decidiram ligar para a pizzaria... Um atendente com a voz bem grossa atende sua chamada: "Boa noite, qual seria o pedido de vocês?</p>
+                <button class="btn-proximo" data-proximo="3">Espera, como você sabe que estou com mais alguém?</button>
+                <button class="btn-proximo" data-proximo="4">Hmm... acho que vou querer duas pizzas, calabresa e portuguesa.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-3">
-            <p>Ninguém respondeu, o atendente desligou, o que devo fazer agora?</p>
-            <button class="btn-proximo" data-proximo="5">Acho que um hamburguer seria uma boa.</button>
-            <button class="btn-proximo" data-proximo="1">Ligar de novo.</button>
+            <div class="text">
+                <p>Ninguém respondeu, o atendente desligou, o que devo fazer agora?</p>
+                <button class="btn-proximo" data-proximo="5">Acho que um hamburguer seria uma boa.</button>
+                <button class="btn-proximo" data-proximo="1">Ligar de novo.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-4">
-            <p>Claro, claro, uma boa opção... já estamos preparando especialmente para você, aguarde e tenha uma boa noite.</p>
-            <button class="btn-proximo" data-proximo="7">hm... ok.</button>
-            <button class="btn-proximo" data-proximo="8">Quanto tempo vai demorar?.</button>
+            <div class="text">
+                <p>Claro, claro, uma boa opção... já estamos preparando especialmente para você, aguarde e tenha uma boa noite.</p>
+                <button class="btn-proximo" data-proximo="7">hm... ok.</button>
+                <button class="btn-proximo" data-proximo="8">Quanto tempo vai demorar?.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-5">
-            <p>...</p>
-            <button class="btn-proximo" data-proximo="2">Ligar para a hamburgueria</button>
-        
+            <div class="text">
+                <p>...</p>
+                <button class="btn-proximo" data-proximo="2">Ligar para a hamburgueria</button>
+            </div>
         </div>
 
 
         <div class="passo" id="passo-6">
             <img src="assets/cenario-passo6.jpg" alt="">
-            <p>Você não viu os noticiários? estes crimes geralmente acontecem esse horário, não sabemos quem são os criminosos, eles se disfarçam de entregadores para descobrir o endereço de suas vítimas, ou até mesmo já sabem onde elas moram. Então tome cuidado rapaz, e tenha uma boa noite. Atendente desliga. </p>
-            <button class="btn-proximo" data-proximo="15">Ok... bizarro isso, mas vamos esperar né</button>
-            <button class="btn-proximo" data-proximo="15"> Ouviu essa andré? assassinos pela área, melhor a gente ficar esperto. Vamos esperar agora. </button>
+            <div class="text">
+                <p>Você não viu os noticiários? estes crimes geralmente acontecem esse horário, não sabemos quem são os criminosos, eles se disfarçam de entregadores para descobrir o endereço de suas vítimas, ou até mesmo já sabem onde elas moram. Então tome cuidado rapaz, e tenha uma boa noite. Atendente desliga. </p>
+                <button class="btn-proximo" data-proximo="15">Ok... bizarro isso, mas vamos esperar né</button>
+                <button class="btn-proximo" data-proximo="15"> Ouviu essa andré? assassinos pela área, melhor a gente ficar esperto. Vamos esperar agora. </button>
+            </div>
         </div>
 
         <div class="passo" id="passo-2">
             <img src="assets/cenario-passo1.jpg" alt="">
-            <p>Um cara com uma voz animada atende: "Olá caro cliente, o que deseja? espero que você esteja ligado nos crimes que estão acontecendo por entregadores... se eu fosse você eu ficaria esperto.</p>
-            <button class="btn-proximo" data-proximo="13">Vou querer um Xbacon.</button>
-            <button class="btn-proximo" data-proximo="6">Que? O que você sabe sobre isso?</button>
+            <div class="text">
+                <p>Um cara com uma voz animada atende: "Olá caro cliente, o que deseja? espero que você esteja ligado nos crimes que estão acontecendo por entregadores... se eu fosse você eu ficaria esperto.</p>
+                <button class="btn-proximo" data-proximo="13">Vou querer um Xbacon.</button>
+                <button class="btn-proximo" data-proximo="6">Que? O que você sabe sobre isso?</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-13">
             <img src="assets/cenario-passo1.jpg" alt="">
-            <p>OK, já vamos preparar seu pedido, saiu 50,99, reais, pague na entrada. "O atendente desligou"</p>
-            <button class="btn-proximo" data-proximo="15">hm... mas e meu endereço? ele nem sequer perguntou... e como ele sabe que serão dois hamburgueres? ok... vou tirar um cochilo</button>
-            <button class="btn-proximo" data-proximo="15">Ok! obrigado, vou esperar agora.</button>
+            <div class="text">
+                <p>OK, já vamos preparar seu pedido, saiu 50,99, reais, pague na entrada. "O atendente desligou"</p>
+                <button class="btn-proximo" data-proximo="15">hm... mas e meu endereço? ele nem sequer perguntou... e como ele sabe que serão dois hamburgueres? ok... vou tirar um cochilo</button>
+                <button class="btn-proximo" data-proximo="15">Ok! obrigado, vou esperar agora.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-15">
-            <p>Você decidiu tirar um cochilo... você acorda com o seu amigo te cutucando e ele susurra para você "hey, acho que tem algo de estranho acontecendo, a campainha tocou, então fui ver se era a nossa comida, e adivinha? não tinha ninguém lá. Então você decide:?</p>
-            <button class="btn-proximo" data-proximo="16">Sair lá fora e conferir de novo se sua comida chegou. Já faz mais de 1 hora que estamos esperando. </button>
-            <button class="btn-proximo" data-proximo="17">Ficar aqui dentro e olhar pela janela enquanto espera o entregador.</button>
+            <div class="text">
+                <p>Você decidiu tirar um cochilo... você acorda com o seu amigo te cutucando e ele susurra para você "hey, acho que tem algo de estranho acontecendo, a campainha tocou, então fui ver se era a nossa comida, e adivinha? não tinha ninguém lá. Então você decide:?</p>
+                <button class="btn-proximo" data-proximo="16">Sair lá fora e conferir de novo se sua comida chegou. Já faz mais de 1 hora que estamos esperando. </button>
+                <button class="btn-proximo" data-proximo="17">Ficar aqui dentro e olhar pela janela enquanto espera o entregador.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-16">
             <img src="assets/cenario-passo16.jpg" alt="">
-            <p>Você decide ir lá fora, ainda está chovendo e está bem escuro, quase não dá para ver nada... e de repente uma luz de um veículo é avistada chegando perto e uma moto para na frente da sua casa. Algo de estranho está acontecendo, você sente isso. André te espera do lado de dentro enquanto você:</p>
-            <button class="btn-proximo" data-proximo="18":>Você decide então conversar com o cara da moto.</button>
-            <button class="btn-proximo" data-proximo="19":>Entrar em casa, esse não o entregador, corra.</button>
+            <div class="text">
+                <p>Você decide ir lá fora, ainda está chovendo e está bem escuro, quase não dá para ver nada... e de repente uma luz de um veículo é avistada chegando perto e uma moto para na frente da sua casa. Algo de estranho está acontecendo, você sente isso. André te espera do lado de dentro enquanto você:</p>
+                <button class="btn-proximo" data-proximo="18":>Você decide então conversar com o cara da moto.</button>
+                <button class="btn-proximo" data-proximo="19":>Entrar em casa, esse não é o entregador, corra.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-18">
-            <p>Você se aproxima do homem que sai da moto e vai diretamente a você, e então você escuta uma voz parecida com aquela que você estava falando no telefone.</p>
-            <button class="btn-proximo" data-proximo="20">Hm... boa noite senhor, estava aguardando um pedido de hamburguer, você é o entregador?</button>
-            <button class="btn-proximo" data-proximo="21">Você não fala nada e para e começa a observar o rapaz sair da moto e ir lentamente em sua direção.</button>
+            <div class="text">
+                <p>Você se aproxima do homem que sai da moto e vai diretamente a você, e então você escuta uma voz parecida com aquela que você estava falando no telefone.</p>
+                <button class="btn-proximo" data-proximo="20">Hm... boa noite senhor, estava aguardando um pedido de hamburguer, você é o entregador?</button>
+                <button class="btn-proximo" data-proximo="21">Você não fala nada e para e começa a observar o rapaz sair da moto e ir lentamente em sua direção.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-20">
             <img src="assets/cenario-passo20.jpg" alt="">
-            <p>O homem começa a andar cada vez mais rapido em sua direção, você percebe e começa a correr para dentro de casa, mas quando bate desesperadamente na porte, ela está fechada e seu amigo... infelizmente desapareceu, não importa o quanto você grite, ninguém irá te salvar agora.
-                Você olha para trás e ele está tão proximo... sua visão escurece e você sente uma dor aguniante em seu peito. Uma faca atravessou seu coração e agora você não poderá comer mais seu delicioso hamburguer. Você morreu.
-                Final: Ruim.
-            </p>
+            <div class="text">
+                <p>O homem começa a andar cada vez mais rapido em sua direção, você percebe e começa a correr para dentro de casa, mas quando bate desesperadamente na porte, ela está fechada e seu amigo... infelizmente desapareceu, não importa o quanto você grite, ninguém irá te salvar agora.
+                    Você olha para trás e ele está tão proximo... sua visão escurece e você sente uma dor aguniante em seu peito. Uma faca atravessou seu coração e agora você não poderá comer mais seu delicioso hamburguer. Você morreu.
+                    Final: Ruim.
+                </p>
+            </div>
         </div>
 
         <div class="passo" id="passo-19">
-            <p>Você decide correr e voltar para trás antes que seja tarde, você avista na janela seu amigo André batendo desesperadamente no vidro da janela, você não consegue escutar, mas ele aponta para um pedaço de galho no chão. Você pega o galho rapidamente e tenta se defender do cara que muito provavelmente era um assassino e você era a próxima vítima dele.
-                O que você faz?
-            </p>
-            <button class="btn-proximo" data-proximo="22">Mata-lo.</button>
-            <button class="btn-proximo" data-proximo="23">Desistir.</button>
+            <div class="text">
+                <p>Você decide correr e voltar para trás antes que seja tarde, você avista na janela seu amigo André batendo desesperadamente no vidro da janela, você não consegue escutar, mas ele aponta para um pedaço de galho no chão. Você pega o galho rapidamente e tenta se defender do cara que muito provavelmente era um assassino e você era a próxima vítima dele.
+                    O que você faz?
+                </p>
+                <button class="btn-proximo" data-proximo="22">Mata-lo.</button>
+                <button class="btn-proximo" data-proximo="23">Desistir.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-22">
             <img src="assets/cenario-passo22.jpg" alt="">
-            <p>Você decide então se defender, mas infelizmente você acerta o homem na cabeça, então você liga para a polícia e explica o que aconteceu. Você é um assassino agora. Final: A vingança </p>
+            <div class="text">
+                <p>Você decide então se defender, mas infelizmente você acerta o homem na cabeça, então você liga para a polícia e explica o que aconteceu. Você é um assassino agora. Final: A vingança </p>
+            </div>
         </div>
 
         <div class="passo" id="passo-23">
             <img src="assets/cenario-passo23.jpg" alt="">
-            <p>Ele corre até você e enfia uma faca em sua barriga, sua visão começa a escurecer e então... você morreu. Final: Você é um covarde.</p>
+            <div class="text">
+                <p>Ele corre até você e enfia uma faca em sua barriga, sua visão começa a escurecer e então... você morreu. Final: Você é um covarde.</p>
+            </div>
         </div>
 
         <div class="passo" id="passo-17">
             <img src="assets/cenario-passo17.jpg" alt="">
-            <p>Você observa a janela, aquele homem sai da moto e fica parado em frente a sua casa... você fica assutado pois ele não se mexe, e parece como se ele estivesse te encarando olho no olho. André então pergunta "Quem é ele? vou ir lá ver" André sai para fora de casa e você começa olhar a interação dele com o homem lá fora. André começa a correr, você não entende o motivo... o Homem estranho começou a correr em direção ao André.</p>
-            <button class="btn-proximo" data-proximo="25">Se esconder.</button>
-            <button class="btn-proximo" data-proximo="24">Ligar para a polícia.</button>
+            <div class="text">
+                <p>Você observa a janela, aquele homem sai da moto e fica parado em frente a sua casa... você fica assutado pois ele não se mexe, e parece como se ele estivesse te encarando olho no olho. André então pergunta "Quem é ele? vou ir lá ver" André sai para fora de casa e você começa olhar a interação dele com o homem lá fora. André começa a correr, você não entende o motivo... o Homem estranho começou a correr em direção ao André.</p>
+                <button class="btn-proximo" data-proximo="25">Se esconder.</button>
+                <button class="btn-proximo" data-proximo="24">Ligar para a polícia.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-24">
             <img src="assets/cenario-passo24.jpg" alt="">
-            <p>Você ligou para a polícia: "Alô? Há um assassino do lado de fora perseguindo o meu amigo! o endereço é ********** por favor, me ajuda" "Estamos a caminho" a polícia disse. Enquanto você ligava para a polícia, alguém estava com você, bem atrás de você. Você é apagado por um homem mascarado, onde a sua ultima visão antes de morrer, foi ele te arrastando para o porão pelos pés. A polícia chega na sua casa e começa a investigar a casa, encontram um corpo jogado no chão e com sangue por todo lado. Você morreu. Final: A polícia</p>
+            <div class="text">
+                <p>Você ligou para a polícia: "Alô? Há um assassino do lado de fora perseguindo o meu amigo! o endereço é ********** por favor, me ajuda" "Estamos a caminho" a polícia disse. Enquanto você ligava para a polícia, alguém estava com você, bem atrás de você. Você é apagado por um homem mascarado, onde a sua ultima visão antes de morrer, foi ele te arrastando para o porão pelos pés. A polícia chega na sua casa e começa a investigar a casa, encontram um corpo jogado no chão e com sangue por todo lado. Você morreu. Final: A polícia</p>
+            </div>
         </div>
 
         <div class="passo" id="passo-25">
             <img src="assets/cenario-passo25.jpg" alt="">
-            <p>Você decide se esconder no porão de sua casa, onde planejava ficar sem ser visto até o amanhecer. Você está seguro agora. ou será que... TINHA ALGUÉM COMIGO Final secreto: Eu morri? </p>
+            <div class="text">
+                <p>Você decide se esconder no porão de sua casa, onde planejava ficar sem ser visto até o amanhecer. Você está seguro agora. ou será que... TINHA ALGUÉM COMIGO Final secreto: Eu morri? </p>
+            </div>
         </div>
 
         <div class="passo" id="passo-9">
             <img src="assets/cenario-passo9.jpg" alt="">
-            <p>Você esperou uns 30 mintutos até que escuta um barulho de moto do lado de fora, André diz que é o entregador, então você decide ir ver. Wow! pizza, eu e andré comemos a pizza a noite toda, aproveitamos e assistimos um filme mas espera... tem alguém na janela. Final: Bom?</p>
+            <div class="text">
+                <p>Você esperou uns 30 mintutos até que escuta um barulho de moto do lado de fora, André diz que é o entregador, então você decide ir ver. Wow! pizza, eu e andré comemos a pizza a noite toda, aproveitamos e assistimos um filme mas espera... tem alguém na janela. Final: Bom?</p>
+            </div>
         </div>
 
         <div class="passo" id="passo-8">
-            <p>Cerca de 30 à 60 minutos, tenha uma boa noite, ah, antes que eu me esqueça, saiu 70,00 reais as duas pizzas.</p>
-            <button class="btn-proximo" data-proximo="9">OK, obrigado. Você decide esperar.</button>
-            <button class="btn-proximo" data-proximo="9">Boa noite.</button>
+            <div class="text">
+                <p>Cerca de 30 à 60 minutos, tenha uma boa noite, ah, antes que eu me esqueça, saiu 70,00 reais as duas pizzas.</p>
+                <button class="btn-proximo" data-proximo="9">OK, obrigado. Você decide esperar.</button>
+                <button class="btn-proximo" data-proximo="9">Boa noite.</button>
+            </div>
         </div>
 
         <div class="passo" id="passo-21">
-            <p>Você não teve nenhuma reação pois ficou em choque. Ele te pegou, não há mais nada que você possa fazer agora... "shh, descanse" uma voz grossa fala com você e então sua visão escurece e você para de sentir aquela dor insuportável em seu peito. Final: ??? Por que?</p>
+            <div class="text">
+                <p>Você não teve nenhuma reação pois ficou em choque. Ele te pegou, não há mais nada que você possa fazer agora... "shh, descanse" uma voz grossa fala com você e então sua visão escurece e você para de sentir aquela dor insuportável em seu peito. Final: ??? Por que?</p>
+            </div>
         </div>
 
         <div class="passo" id="passo-7">
-            <p>Sua pizza já já chegará, custou 70,00 reais, tenha uma boa noite. O atendente desligou.</p>
-            <button class="btn-proximo" data-proximo="9">Ok! boa noite.</button>
-            <button class="btn-proximo" data-proximo="9">Esperar.</button>
+            <div class="text">
+                <p>Sua pizza já já chegará, custou 70,00 reais, tenha uma boa noite. O atendente desligou.</p>
+                <button class="btn-proximo" data-proximo="9">Ok! boa noite.</button>
+                <button class="btn-proximo" data-proximo="9">Esperar.</button>
+            </div>
         </div>
 
     </main>
